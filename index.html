@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search videos...">
+            <div class="search-icon">🔍</div>
+        </div>
+    </header>
+
+    <div id="loader" class="loader">
+        <div class="spinner"></div>
+        <p>Loading videos...</p>
+    </div>
+
+    <div class="video-grid" id="video-container" style="display: none;"></div>
+
+    <p id="no-videos-message" class="no-videos" style="display: none;">Videos Not found.</p>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
