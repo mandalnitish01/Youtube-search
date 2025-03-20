@@ -133,4 +133,12 @@
     color: red;
     margin-top: 20px;
   }
-  
+  .errormessege{
+    font-size: 30px;
+  }
+.time-duration{
+  position:inherit;
+  margin-left: 89%;
+  margin-top: -20px;
+  font-size: 15px;
+}
